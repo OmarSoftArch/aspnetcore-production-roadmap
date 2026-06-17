@@ -1,0 +1,14 @@
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\obj\Debug\net8.0\LearningStore.GeneratedMSBuildEditorConfig.editorconfig
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\obj\Debug\net8.0\LearningStore.AssemblyInfoInputs.cache
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\obj\Debug\net8.0\LearningStore.AssemblyInfo.cs
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\obj\Debug\net8.0\LearningStore.csproj.CoreCompileInputs.cache
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\bin\Debug\net8.0\LearningStore.exe
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\bin\Debug\net8.0\LearningStore.deps.json
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\bin\Debug\net8.0\LearningStore.runtimeconfig.json
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\bin\Debug\net8.0\LearningStore.dll
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\bin\Debug\net8.0\LearningStore.pdb
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\obj\Debug\net8.0\LearningStore.dll
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\obj\Debug\net8.0\refint\LearningStore.dll
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\obj\Debug\net8.0\LearningStore.pdb
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\obj\Debug\net8.0\LearningStore.genruntimeconfig.cache
+E:\aspnetcore-production-roadmap\week-01-csharp-oop-solid\LearningStore\obj\Debug\net8.0\ref\LearningStore.dll
