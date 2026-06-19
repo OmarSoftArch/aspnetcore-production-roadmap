@@ -10,5 +10,9 @@ namespace LearningStore.Models
     {
         public string DownloadUrl { get; set; } = string.Empty;
         public bool IsInstantDelivery => !string.IsNullOrWhiteSpace(DownloadUrl);
+        public override string GetSummary()
+        {
+            return $"{base.GetSummary()} | Digital | Instant: {IsInstantDelivery}";
+        }
     }
 }

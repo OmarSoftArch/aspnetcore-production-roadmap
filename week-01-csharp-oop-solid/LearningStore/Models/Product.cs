@@ -22,13 +22,17 @@ namespace LearningStore.Models
             }
         }
 
-         public decimal GetPriceWithTax(decimal taxRate)
-         {
+        public decimal GetPriceWithTax(decimal taxRate)
+        {
 
-        if (taxRate < 0)
-            throw new ArgumentException("Tax rate cannot be negative.", nameof(taxRate));
-        return Price * (1 + taxRate);
-        
+            if (taxRate < 0)
+                throw new ArgumentException("Tax rate cannot be negative.", nameof(taxRate));
+            return Price * (1 + taxRate);
+
+        }
+        public virtual string GetSummary()
+        {
+            return $"{Name} - {Price:C}";
         }
     }
 }

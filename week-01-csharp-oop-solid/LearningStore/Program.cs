@@ -1,4 +1,5 @@
-﻿using LearningStore.Models;
+﻿using LearningStore.Interfaces;
+using LearningStore.Models;
 
 var laptop = new PhysicalProduct
 {
@@ -17,9 +18,14 @@ var ebook = new DigitalProduct
 
 decimal taxRate = 0.15m;
 
-Console.WriteLine("=== Physical Product ===");
-Console.WriteLine($"{laptop.Name} - Total: {laptop.GetTotalCost(taxRate):C}");
+// Polymorphism — قائمة واحدة لكل المنتجات
+List<Product> cart = { laptop, ebook };
 
-Console.WriteLine("\n=== Digital Product ===");
-Console.WriteLine($"{ebook.Name} - Price with Tax: {ebook.GetPriceWithTax(taxRate):C}");
-Console.WriteLine($"Instant Delivery: {ebook.IsInstantDelivery}");
+Console.WriteLine("=== Cart Summary (Polymorphism) ===");
+foreach (Product item in cart)
+    Console.WriteLine(item.GetSummary());
+
+// Abstraction — IShippable
+Console.WriteLine("\n=== Shipping (Abstraction) ===");
+IShippable shippable = laptop;
+Console.WriteLine($"Shippable total: {shippable.GetTotalCost(taxRate):C}");
