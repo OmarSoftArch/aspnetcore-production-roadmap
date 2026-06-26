@@ -452,11 +452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\aspnetcore-production-roadmap\\week-02-aspnetcore-essentials\\week-02-aspnetcore-essentials\\SalesInventory.Api\\SalesInventory.Api.csproj",
+      "projectUniqueName": "E:\\aspnetcore-production-roadmap\\week-02-aspnetcore-essentials\\SalesInventory.Api\\SalesInventory.Api.csproj",
       "projectName": "SalesInventory.Api",
-      "projectPath": "E:\\aspnetcore-production-roadmap\\week-02-aspnetcore-essentials\\week-02-aspnetcore-essentials\\SalesInventory.Api\\SalesInventory.Api.csproj",
+      "projectPath": "E:\\aspnetcore-production-roadmap\\week-02-aspnetcore-essentials\\SalesInventory.Api\\SalesInventory.Api.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "E:\\aspnetcore-production-roadmap\\week-02-aspnetcore-essentials\\week-02-aspnetcore-essentials\\SalesInventory.Api\\obj\\",
+      "outputPath": "E:\\aspnetcore-production-roadmap\\week-02-aspnetcore-essentials\\SalesInventory.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

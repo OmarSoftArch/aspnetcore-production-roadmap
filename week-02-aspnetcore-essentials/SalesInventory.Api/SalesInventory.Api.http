@@ -1,0 +1,36 @@
+@SalesInventory.Api_HostAddress = http://localhost:5038
+
+GET {{SalesInventory.Api_HostAddress}}/api/categories
+Accept: application/json
+
+###
+
+GET {{SalesInventory.Api_HostAddress}}/api/products
+Accept: application/json
+
+###
+
+POST {{SalesInventory.Api_HostAddress}}/api/categories
+Content-Type: application/json
+
+{
+  "name": "Training Materials",
+  "description": "Digital learning materials for internal teams",
+  "isActive": true
+}
+
+###
+
+POST {{SalesInventory.Api_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "ASP.NET Core Workshop",
+  "description": "Practical workshop subscription for backend developers",
+  "price": 199.99,
+  "stockQuantity": 50,
+  "categoryId": 1,
+  "isActive": true
+}
+
+###

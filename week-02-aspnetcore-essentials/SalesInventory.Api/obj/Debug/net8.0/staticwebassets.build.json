@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bVD6llLgVBDPj0RRv+4d66JQkFH1WdZSjOW7Vh4jMRs=",
+  "Source": "SalesInventory.Api",
+  "BasePath": "_content/SalesInventory.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
